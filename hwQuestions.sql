@@ -73,4 +73,4 @@ WHERE customer_id IN(
 --ANSWER =
 SELECT COUNT(payment_id)
 FROM payment
-WHERE amount <= 0;
+WHERE amount = 0;
